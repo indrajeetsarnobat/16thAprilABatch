@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression Suite">
+  <test thread-count="5" name="Regression Test">
+    <classes>
+      <class name="BeforeAfterTest.TestCase3"/>
+      <class name="BeforeAfterTest.TestCase4"/>
+    </classes>
+  </test> <!-- Regression Test -->
+</suite> <!-- regression Suite -->
