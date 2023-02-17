@@ -13,6 +13,8 @@ import org.testng.annotations.Test;
 
 public class CrossBrowserTesting {
 
+	//To Check Browser Compatibility
+	
 	WebDriver driver;
 	@Parameters("browser")
 	@Test(priority = 1)
